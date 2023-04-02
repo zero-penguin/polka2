@@ -134,12 +134,6 @@ button {
   background-size: cover;              
 }
 
-.suprise-img{
-  background-image:url(img/koroatu.ico);           
-  background-repeat:  no-repeat;    
-  background-size: cover;        
-}
-
 img[src="img/koroatu.ico"] {
   width:max-width;                                  
   height:max-content;                                 
