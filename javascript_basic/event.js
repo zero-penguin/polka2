@@ -17,7 +17,7 @@ $(function() {
 
 $(function() {
   $("#button2").on('click', function() {
-    $("head-title").addClass("suprise-img");
+    $("koroatu").addClass("suprise-img");
   });
 });
 
