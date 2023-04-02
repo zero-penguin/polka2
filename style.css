@@ -127,6 +127,12 @@ button {
   background-size: cover;        
 }
 
+img[src="img/koroatu.ico"] {
+  width:max-width;                                  
+  height:max-content;                                 
+  z-index: 12;
+}
+
 .btn {
   box-sizing: border-box;
   background-color: #000;
