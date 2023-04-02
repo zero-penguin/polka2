@@ -131,8 +131,7 @@ button {
 }
 .suprise-img{
   background-image:url(img/koroatu.jpg);           
-  background-repeat:  no-repeat; 
-  background-size: cover;              
+  background-repeat:  no-repeat;          
 }
 
 img[src="img/koroatu.jpg"] {
