@@ -17,7 +17,7 @@ $(function() {
 
 $(function() {
   $("#button2").on('click', function() {
-    $("#main-message").addClass("suprise-img");
+    $("#aaa").addClass("suprise-img");
   });
 });
 
