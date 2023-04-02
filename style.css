@@ -121,9 +121,18 @@ button {
   height: 20%;
 }
 
+#aaa {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
 .suprise-img{
   background-image:url(img/koroatu.jpg);           
-  background-repeat:  no-repeat;               
+  background-repeat:  no-repeat; 
+  background-size: cover;              
 }
 
 img[src="img/koroatu.jpg"] {

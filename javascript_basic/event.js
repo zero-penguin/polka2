@@ -17,9 +17,10 @@ $(function() {
 
 $(function() {
   $("#button2").on('click', function() {
-    $("body").addClass("suprise-img");
+    $("#aaa").addClass("suprise-img");
   });
 });
+
 
 function audio() {
   document.getElementById('btn_audio').currentTime = 0; //連続クリックに対応
