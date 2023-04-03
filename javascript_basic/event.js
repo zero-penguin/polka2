@@ -18,7 +18,16 @@ $(function() {
 $(function() {
   $("#button2").on('click', function() {
     $("#main-message").addClass("suprise-img");
-  });
+
+    $("#main-message").css({
+      "width":"100vw",
+      "max-width":"100vw", // max-widthがつけられているので、上書きする。
+      "height":"100vh",
+      "position":"fixed",
+      "top":"0",
+      "left":"0"
+    });
+  }); 
 });
 
 
