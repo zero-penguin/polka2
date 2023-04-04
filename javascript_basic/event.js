@@ -26,6 +26,11 @@ $(function() {
       "position":"fixed",
       "top":"0",
       "left":"0"
+    // //明日はここから
+    // $('#main-message:h1').remove();
+
+    // $('ul').append('<li>appendで追加' + num + '</li>');
+    
     });
   }); 
 });
