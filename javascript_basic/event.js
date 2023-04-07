@@ -17,7 +17,11 @@ $(function() {
 
 $(function() {
   $("#button2").on('click', function() {
+    // ころ圧画像の追加
     $("#main-message").addClass("suprise-img");
+    // ころ圧画像の解除
+    $('#main-message').append('<button>removeClass</button>');
+
 
     $("#main-message").css({
       "width":"100vw",
@@ -25,12 +29,8 @@ $(function() {
       "height":"100vh",
       "position":"fixed",
       "top":"0",
-      "left":"0"
-    // //明日はここから
-    // $('#main-message:h1').remove();
+      "left":"0",
 
-    // $('ul').append('<li>appendで追加' + num + '</li>');
-    
     });
   }); 
 });
