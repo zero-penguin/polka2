@@ -23,7 +23,7 @@ $(function() {
     
     $('#main-message').append('<button>removeClass</button>');
     $('#main-message').on('click', function() {
-      $('#main-message').removeClass("suprise-img");
+      location.reload();
 
     })
 
