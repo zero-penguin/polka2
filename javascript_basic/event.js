@@ -21,7 +21,7 @@ $(function() {
     $("#main-message").addClass("suprise-img");
     // ころ圧画像の解除
     
-    $('#main-message').append('<button>removeClass</button>');
+    $('#main-message').append('<button>もう押しちゃだめだでな</button>');
     $('#main-message').on('click', function() {
       location.reload();
 

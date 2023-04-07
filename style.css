@@ -116,9 +116,10 @@ header {
   font-size: small;
 }
 
-button {
-  width:20%;
-  height: 20%;
+.button {
+  background-color: #93bae9;
+  width: 200px;
+  height: 100px;
 }
 
 
