@@ -18,5 +18,4 @@ def load_from_url(url):
     URL = "https://www.aozora.gr.jp/cards/000119/files/624_ruby_5668.zip"
     text = load_from_url(URL)
     view = text.split()[0] 
-    return render_template('index.html', name=name)
-
+    return view
