@@ -20,7 +20,12 @@ $(function() {
     // ころ圧画像の追加
     $("#main-message").addClass("suprise-img");
     // ころ圧画像の解除
+    
     $('#main-message').append('<button>removeClass</button>');
+    $('#main-message').on('click', function() {
+      $('#main-message').removeClass("suprise-img");
+
+    })
 
 
     $("#main-message").css({
