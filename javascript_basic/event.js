@@ -57,25 +57,23 @@ var img2 = $('<img>').attr({
   src: 'img/oruteba.PNG'
 });
 
+// カウンターの初期化
+var count = 0;
+
 $(function() {
   // クリック
   $('#oruka').on('click', () => {
-    // カウンター
-    count++;
-    if (count % 2 == 1) {
+
+    if (count === 0) {
       $('#box').append(img1);
-    }else{
-      $('#box').fadeOut(500);
-    }
-  });
-  // ダブルクリック
-  $('#oruka').on('dbclick', () => {
-    // カウンター
-    count++;
-    if (count % 2 == 1) {
+      count++;
+    }else if(count === 1){
       $('#box').append(img2);
-    }else{
+      count++;
+    }else{ 
       $('#box').fadeOut(500);
+      count = 0;
+      location.reload();
     }
   });
 });
