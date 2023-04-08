@@ -141,4 +141,14 @@ header {
   width: 10%;
 }
 
+#oruka {
+  background-image:url(img/oruka.PNG);           
+  background-repeat:  no-repeat; 
+  background-size: cover;  
+  transition: all 3s cubic-bezier(0, 0.89, 0.74, 0.13);
+}
+
+.box {
+  transition: all 3s cubic-bezier(0, 0.89, 0.74, 0.13);
+}
 

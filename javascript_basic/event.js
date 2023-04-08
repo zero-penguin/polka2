@@ -62,13 +62,19 @@ var count = 0;
 
 $(function() {
   // クリック
+
+  $('#box').hide();
+
   $('#oruka').on('click', () => {
 
     if (count === 0) {
       $('#box').append(img1);
+      $('#box').fadeIn();
       count++;
     }else if(count === 1){
+      $('#box').hide();
       $('#box').append(img2);
+      $('#box').slideDown();
       count++;
     }else{ 
       $('#box').fadeOut(500);
