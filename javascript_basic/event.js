@@ -1,16 +1,16 @@
 $(function() {
-  $('button').on({
+  $('.button1').on({
     'click': () => {
       // 背景を赤 
-      $('button').css('background-color', 'red');
+      $('.button1').css('background-color', 'red');
       // テキストを「click」 
-      $('button').text('ポルカおるよ！！');
+      $('.button1').text('ポルカおるよ！！');
     },
     'dblclick': () => { 
       // 背景を緑 
-      $('button').css('background-color', 'green'); 
+      $('.button1').css('background-color', 'green'); 
       // テキストを「dblclick」 
-      $('button').text('いるってば！');
+      $('.button1').text('いるってば！');
     },
   });
 });
@@ -45,3 +45,37 @@ function audio() {
   document.getElementById('btn_audio').currentTime = 0; //連続クリックに対応
   document.getElementById('btn_audio').play(); //クリックしたら音を再生
 }
+
+// イメージの定義
+var img1 = $('<img>').attr({
+  id: 'oruyo',
+  src: 'img/oruyo.PNG'
+});
+
+var img2 = $('<img>').attr({
+  id: 'oruteba',
+  src: 'img/oruteba.PNG'
+});
+
+$(function() {
+  // クリック
+  $('#oruka').on('click', () => {
+    // カウンター
+    count++;
+    if (count % 2 == 1) {
+      $('#box').append(img1);
+    }else{
+      $('#box').fadeOut(500);
+    }
+  });
+  // ダブルクリック
+  $('#oruka').on('dbclick', () => {
+    // カウンター
+    count++;
+    if (count % 2 == 1) {
+      $('#box').append(img2);
+    }else{
+      $('#box').fadeOut(500);
+    }
+  });
+});
